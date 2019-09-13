@@ -7,13 +7,13 @@ vagrantfile to install kubernets cluster of two nodes verified on ubuntu 18
 <b>1- install virtual box <br/></b>
 <i>
  
-<code>&nbsp;&nbsp;&nbsp;&nbsp;sudo apt update <br/>  </code>
-<code> &nbsp;&nbsp;&nbsp;&nbsp;sudo apt upgrade <br/> </code>
-<code> &nbsp;&nbsp;&nbsp;&nbsp;wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add - <br/> </code>
-<code> &nbsp;&nbsp;&n bsp;&nbsp;wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add - <br/> </code>
-<code>&nbsp;&nbsp;&nbsp;&nbsp;sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib" <br/> </code>
-<code>&nbsp;&nbsp;&nbsp;&nbsp;sudo apt update <br/> </code>
-<code> &nbsp;&nbsp;&nbsp;&nbsp;sudo apt install virtualbox-6.0 <br/> </code>
+<code>&nbsp;&nbsp;&nbsp;&nbsp;sudo apt update   </code> <br/>
+<code> &nbsp;&nbsp;&nbsp;&nbsp;sudo apt upgrade  </code> <br/>
+<code> &nbsp;&nbsp;&nbsp;&nbsp;wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add - </code> <br/> 
+<code> &nbsp;&nbsp;&n bsp;&nbsp;wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add - </code> <br/> 
+<code>&nbsp;&nbsp;&nbsp;&nbsp;sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib" </code> <br/> 
+<code>&nbsp;&nbsp;&nbsp;&nbsp;sudo apt update </code> <br/> 
+<code> &nbsp;&nbsp;&nbsp;&nbsp;sudo apt install virtualbox-6.0 </code> <br/>
 
  </i>
 
