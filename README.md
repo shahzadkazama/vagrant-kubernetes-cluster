@@ -7,7 +7,7 @@ Requirements
 1- install virtual box <br/>
 2- install vagrant  <br/>
 3- clone this project and execute Vagrant file <br/>
-  &Tab; -> git clone https://github.com/shahzadkazama/vagrant-kubernetes-cluster.git <br/>
-  &Tab; -> cd vagrant-kubernetes-cluster <br/>
-  &Tab; -> vagrant up <br/>
+  <pre> -> git clone https://github.com/shahzadkazama/vagrant-kubernetes-cluster.git <br/>
+  <pre> -> cd vagrant-kubernetes-cluster <br/>
+  <pre> -> vagrant up <br/>
   
