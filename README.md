@@ -4,7 +4,8 @@ vagrantfile to install kubernets cluster of two nodes verified on ubuntu 18
 
 <b>Steps:</b>
 
-1- install virtual box <br/>
+<b>1- install virtual box <br/></b>
+<i>
 &nbsp;&nbsp;&nbsp;&nbsp;sudo apt update <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;sudo apt upgrade <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add - <br/>
@@ -12,10 +13,12 @@ vagrantfile to install kubernets cluster of two nodes verified on ubuntu 18
 &nbsp;&nbsp;&nbsp;&nbsp;sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib" <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;sudo apt update <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;sudo apt install virtualbox-6.0 <br/>
+ </i>
 
-2- install vagrant  <br/>
-3- clone this project and execute Vagrant file <br/>
+<b>2- install vagrant  <br/></b>
+<b>3- clone this project and execute Vagrant file <br/></b>
+<i>
   &nbsp;&nbsp;&nbsp;&nbsp; -> git clone https://github.com/shahzadkazama/vagrant-kubernetes-cluster.git <br/>
   &nbsp;&nbsp;&nbsp;&nbsp; -> cd vagrant-kubernetes-cluster <br/>
   &nbsp;&nbsp;&nbsp;&nbsp; -> vagrant up <br/>
-  
+ </i>
