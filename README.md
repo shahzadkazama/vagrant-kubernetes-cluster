@@ -23,4 +23,5 @@ vagrantfile to install kubernets cluster of two nodes verified on ubuntu 18
 <i>
   <code>&nbsp;&nbsp;&nbsp;&nbsp; -> git clone https://github.com/shahzadkazama/vagrant-kubernetes-cluster.git </code> <br/> <br/>
   <code>&nbsp;&nbsp;&nbsp;&nbsp; -> cd vagrant-kubernetes-cluster </code><br/><br/>
+  <code>&nbsp;&nbsp;&nbsp;&nbsp; -> vagrant up </code><br/><br/>
  </i>
