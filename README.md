@@ -9,6 +9,7 @@ vagrantfile to install kubernets cluster of two nodes verified on ubuntu 18
  
 <code>&nbsp;&nbsp;&nbsp;&nbsp;sudo apt update   </code> <br/><br/>
 <code> &nbsp;&nbsp;&nbsp;&nbsp;sudo apt upgrade  </code> <br/><br/>
+<code> &nbsp;&nbsp;&nbsp;&nbsp; apt install libvirt-daemon-system </code> <br/><br/>
 <code> &nbsp;&nbsp;&nbsp;&nbsp;wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add - </code> <br/> <br/>
 <code> &nbsp;&nbsp;&nbsp;&nbsp;wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add - </code> <br/> <br/>
 <code> &nbsp;&nbsp;&nbsp;&nbsp;sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib" </code> <br/> <br/>
