@@ -29,7 +29,7 @@ echo '1' > /proc/sys/net/bridge/bridge-nf-call-iptables
 yum install -y kubelet kubeadm kubectl
 systemctl daemon-reload
 systemctl restart kubelet
-systemctl restart kubelet
+systemctl enable kubelet
 systemctl start docker.service
 
 kubeadm init --apiserver-advertise-address=$MASTER_IP --pod-network-cidr=192.168.1.0/16
@@ -68,6 +68,8 @@ EOF
 echo '1' > /proc/sys/net/bridge/bridge-nf-call-iptables
 yum install -y kubelet kubeadm kubectl
 systemctl daemon-reload
+systemctl restart kubelet.service
+systemctl enable kubelet.service
 systemctl start docker.service
 systemctl enable docker.service
 
