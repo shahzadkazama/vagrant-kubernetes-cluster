@@ -31,7 +31,11 @@ systemctl restart kubelet
 systemctl start docker.service
 
 kubeadm init --apiserver-advertise-address=$MASTER_IP --pod-network-cidr=192.168.1.0/16
-sleep 300
+sleep 30
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
 /bin/kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 SCRIPT
 
