@@ -65,7 +65,7 @@ repo_gpgcheck=1
 gpgkey=https://packages.cloud.google.com/yum/doc/yum-key.gpg
 	https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
 EOF
-
+echo '1' > /proc/sys/net/bridge/bridge-nf-call-iptables
 yum install -y kubelet kubeadm kubectl
 systemctl daemon-reload
 systemctl start docker.service
